@@ -1,0 +1,18 @@
+﻿<Page x:Class="AdminApp.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="HomePage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Content="Управление товарами" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="0" Margin="10" Width="150" Click="ManageProducts_Click"/>
+        <Button Content="Управление акциями" HorizontalAlignment="Left" Grid.Row="1" Grid.Column="0" Margin="10" Width="150" Click="ManagePromotions_Click"/>
+    </Grid>
+</Page>
